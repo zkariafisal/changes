@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>الصفحة الثانية</h1>
+    <img src="2.jpg" alt="صورة 2" width="200px">
+    <a href="index.html"><button onclick="goToPage2()">العودة الى الصفحة الاولى</button></a>
+
+
+    <script>
+        function goToPage1() {
+            window.location.href = "index.php";
+        }
+    </script>
+</body>
+</html>
